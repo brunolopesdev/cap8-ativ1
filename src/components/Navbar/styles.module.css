@@ -1,0 +1,36 @@
+.navContainer {
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 3px;
+}
+
+.navContainer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.navContainer ul li {
+    list-style: none;
+}
+
+.navContainer ul li a {
+    text-decoration: none;
+    color: #3b8bc0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+    .navContainer ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .navContainer {
+        height: 100%;
+    }
+}
